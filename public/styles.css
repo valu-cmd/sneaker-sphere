@@ -126,6 +126,19 @@ p{
     width: 65px;
 }
 
+/* Estilos para el contador de artículos */
+#cart-count {
+    background-color: #e67a6c;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 8px;
+    font-family: Nunito;
+    font-size: 12px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+}
+
 #mobile{
     display: none;
     align-items: center;
