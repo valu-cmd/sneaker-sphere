@@ -1,0 +1,227 @@
+[
+    {
+        "id": "1",
+        "titulo": "Converse Chuck Taylor All Star Classic",
+        "precio": 1019,
+        "marca": "Converse",
+        "tipo": "Casual Sneakers",
+        "descripcion": "Un clásico atemporal, perfecto para un estilo informal y versátil.",
+        "imagen": "./public/img/zapatos/1.jpg"
+    },
+    {
+        "id": "2",
+        "titulo": "Puma Ignite XT Running",
+        "precio": 1528,
+        "marca": "Puma",
+        "tipo": "Running Shoes",
+        "descripcion": "Diseñados para una carrera cómoda y energética, con una excelente amortiguación.",
+        "imagen": "./public/img/zapatos/2.jpg"
+    },
+    {
+        "id": "3",
+        "titulo": "Nike Air Zoom Structure 24",
+        "precio": 2038,
+        "marca": "Nike",
+        "tipo": "Running Shoes",
+        "descripcion": "Ofrecen estabilidad y soporte para una pisada suave y controlada en cada paso.",
+        "imagen": "./public/img/zapatos/3.jpg"
+    },
+    {
+        "id": "4",
+        "titulo": "Adidas Ultraboost Uncaged",
+        "precio": 2547,
+        "marca": "Adidas",
+        "tipo": "Running Shoes",
+        "descripcion": "Combina estilo y rendimiento, con una parte superior sin costuras y una amortiguación reactiva.",
+        "imagen": "./public/img/zapatos/4.jpg"
+    },
+    {
+        "id": "5",
+        "titulo": "Vans Old Skool Checkerboard",
+        "precio": 1189,
+        "marca": "Vans",
+        "tipo": "Skate Shoes",
+        "descripcion": "El estilo clásico de Vans con un patrón de tablero de ajedrez icónico, perfecto para el skate.",
+        "imagen": "./public/img/zapatos/5.jpg"
+    },
+    {
+        "id": "6",
+        "titulo": "Puma Clyde Court",
+        "precio": 1868,
+        "marca": "Puma",
+        "tipo": "Basketball Shoes",
+        "descripcion": "Inspirados en el legado del baloncestista Walt Clyde Frazier, ofrecen rendimiento y estilo en la cancha.",
+        "imagen": "./public/img/zapatos/6.jpg"
+    },
+    {
+        "id": "7",
+        "titulo": "Nike Air Zoom Pegasus 38",
+        "precio": 2038,
+        "marca": "Nike",
+        "tipo": "Running Shoes",
+        "descripcion": "La última versión de la serie Pegasus, con una amortiguación suave y una sensación de velocidad.",
+        "imagen": "./public/img/zapatos/7.jpg"
+    },
+    {
+        "id": "8",
+        "titulo": "Adidas NMD R1",
+        "precio": 2207,
+        "marca": "Adidas",
+        "tipo": "Casual Sneakers",
+        "descripcion": "Estilo urbano y comodidad sin igual con la tecnología Boost y un diseño futurista.",
+        "imagen": "./public/img/zapatos/8.jpg"
+    },
+    {
+        "id": "9",
+        "titulo": "Vans Slip-On Pro",
+        "precio": 1104,
+        "marca": "Vans",
+        "tipo": "Skate Shoes",
+        "descripcion": "Versión mejorada del Slip-On con mayor durabilidad y suela UltraCush HD para comodidad.",
+        "imagen": "./public/img/zapatos/9.jpg"
+    },
+    {
+        "id": "10",
+        "titulo": "Vans Slip-On ProConverse Jack Purcell Canvas",
+        "precio": 1104,
+        "marca": "Converse",
+        "tipo": "Casual Sneakers",
+        "descripcion": "Un diseño elegante con la icónica puntera de goma y suela de tracción.",
+        "imagen": "./public/img/zapatos/10.jpg"
+    },
+    {
+        "id": "11",
+        "titulo": "Nike Air Force 1",
+        "precio": 1528,
+        "marca": "Nike",
+        "tipo": "Casual Sneakers",
+        "descripcion": "Un icono de la cultura sneaker con suela Air y un estilo versátil que nunca pasa de moda.",
+        "imagen": "./public/img/zapatos/11.jpg"
+    },
+    {
+        "id": "12",
+        "titulo": "Adidas Superstar",
+        "precio": 1358,
+        "marca": "Adidas",
+        "tipo": "Casual Sneakers",
+        "descripcion": "Un ícono de la moda urbana, con la clásica puntera de concha y las 3 Rayas icónicas de Adidas.",
+        "imagen": "./public/img/zapatos/12.jpg"
+    },
+    {
+        "id": "13",
+        "titulo": "Vans Authentic",
+        "precio": 934,
+        "marca": "Vans",
+        "tipo": "Casual Sneakers",
+        "descripcion": "Auténticos y versátiles, perfectos para un estilo informal y relajado.",
+        "imagen": "./public/img/zapatos/13.jpg"
+    },
+    {
+        "id": "14",
+        "titulo": "Puma RS-X",
+        "precio": 1698,
+        "marca": "Puma",
+        "tipo": "Casual Sneakers",
+        "descripcion": "Diseño retro con una mezcla de colores llamativa y tecnología de amortiguación avanzada.",
+        "imagen": "./public/img/zapatos/14.jpg"
+    },
+    {
+        "id": "15",
+        "titulo": "Nike React Infinity Run Flyknit",
+        "precio": 2574,
+        "marca": "Nike",
+        "tipo": "Running Shoes",
+        "descripcion": "Diseño retro con una mezcla de colores llamativa y tecnología de amortiguación avanzada.",
+        "imagen": "./public/img/zapatos/15.jpg"
+    },
+    {
+        "id": "16",
+        "titulo": "Adidas Stan Smith",
+        "precio": 1274,
+        "marca": "Adidas",
+        "tipo": "Casual Sneakers",
+        "descripcion": "Elegancia minimalista con el clásico diseño de Stan Smith y detalles en contraste.",
+        "imagen": "./public/img/zapatos/16.jpg"
+    },
+    {
+        "id": "17",
+        "titulo": "Vans Sk8-Hi",
+        "precio": 1274,
+        "marca": "Vans",
+        "tipo": "Skate Shoes",
+        "descripcion": "Un clásico del skateboarding con cuello acolchado y durabilidad para las sesiones en la tabla.",
+        "imagen": "./public/img/zapatos/17.jpg"
+    },
+    {
+        "id": "18",
+        "titulo": "Converse One Star",
+        "precio": 1189,
+        "marca": "Converse",
+        "tipo": "Casual Sneakers",
+        "descripcion": "Estilo desenfadado con el distintivo logo de la estrella y una suela cómoda.",
+        "imagen": "./public/img/zapatos/18.jpg"
+    },
+    {
+        "id": "19",
+        "titulo": "Nike Zoom Freak 3",
+        "precio": 2377,
+        "marca": "Nike",
+        "tipo": "Basketball Shoes",
+        "descripcion": "Diseñados para el jugador Giannis Antetokounmpo, con soporte y tracción para movimientos explosivos.",
+        "imagen": "./public/img/zapatos/19.jpg"
+    },
+    {
+        "id": "20",
+        "titulo": "Adidas Continental 80",
+        "precio": 1358,
+        "marca": "Adidas",
+        "tipo": "Casual Sneakers",
+        "descripcion": "Estilo retro de los años 80 con una suela dividida y detalles de ventana lateral.",
+        "imagen": "./public/img/zapatos/20.jpg"
+    },
+    {
+        "id": "21",
+        "titulo": "Vans Sk8-Hi",
+        "precio": 1274,
+        "marca": "Vans",
+        "tipo": "Skate Shoes",
+        "descripcion": "Un clásico del skateboarding con cuello acolchado y durabilidad para las sesiones en la tabla.",
+        "imagen": "./public/img/zapatos/17.jpg"
+    },
+    {
+        "id": "22",
+        "titulo": "Vans Sk8-Hi",
+        "precio": 1274,
+        "marca": "Vans",
+        "tipo": "Skate Shoes",
+        "descripcion": "Un clásico del skateboarding con cuello acolchado y durabilidad para las sesiones en la tabla.",
+        "imagen": "./public/img/zapatos/17.jpg"
+    },
+    {
+        "id": "23",
+        "titulo": "Vans Sk8-Hi",
+        "precio": 1274,
+        "marca": "Vans",
+        "tipo": "Skate Shoes",
+        "descripcion": "Un clásico del skateboarding con cuello acolchado y durabilidad para las sesiones en la tabla.",
+        "imagen": "./public/img/zapatos/17.jpg"
+    },
+    {
+        "id": "24",
+        "titulo": "Vans Sk8-Hi",
+        "precio": 1274,
+        "marca": "Vans",
+        "tipo": "Skate Shoes",
+        "descripcion": "Un clásico del skateboarding con cuello acolchado y durabilidad para las sesiones en la tabla.",
+        "imagen": "./public/img/zapatos/17.jpg"
+    },
+    {
+        "id": "25",
+        "titulo": "Vans Sk8-Hi",
+        "precio": 1274,
+        "marca": "Vans",
+        "tipo": "Skate Shoes",
+        "descripcion": "Un clásico del skateboarding con cuello acolchado y durabilidad para las sesiones en la tabla.",
+        "imagen": "./public/img/zapatos/17.jpg"
+    }
+]
