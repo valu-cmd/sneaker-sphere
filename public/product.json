@@ -181,12 +181,12 @@
     },
     {
         "id": "21",
-        "titulo": "Vans Sk8-Hi",
-        "precio": 1274,
+        "titulo": "Vans Era",
+        "precio": 1019,
         "marca": "Vans",
         "tipo": "Skate Shoes",
-        "descripcion": "Un clásico del skateboarding con cuello acolchado y durabilidad para las sesiones en la tabla.",
-        "imagen": "./public/img/zapatos/17.jpg"
+        "descripcion": "Diseño clásico con detalles de doble costura y suela vulcanizada para mayor durabilidad.",
+        "imagen": "./public/img/zapatos/21.jpg"
     },
     {
         "id": "22",
@@ -195,33 +195,33 @@
         "marca": "Vans",
         "tipo": "Skate Shoes",
         "descripcion": "Un clásico del skateboarding con cuello acolchado y durabilidad para las sesiones en la tabla.",
-        "imagen": "./public/img/zapatos/17.jpg"
+        "imagen": "./public/img/zapatos/22.jpg"
     },
     {
         "id": "23",
-        "titulo": "Vans Sk8-Hi",
-        "precio": 1274,
-        "marca": "Vans",
-        "tipo": "Skate Shoes",
-        "descripcion": "Un clásico del skateboarding con cuello acolchado y durabilidad para las sesiones en la tabla.",
-        "imagen": "./public/img/zapatos/17.jpg"
+        "titulo": "Puma Cali",
+        "precio": 1613,
+        "marca": "Puma",
+        "tipo": "Casual Sneakers",
+        "descripcion": "Estilo inspirado en la costa oeste con una silueta retro y detalles llamativos.",
+        "imagen": "./public/img/zapatos/23.jpg"
     },
     {
         "id": "24",
-        "titulo": "Vans Sk8-Hi",
-        "precio": 1274,
-        "marca": "Vans",
-        "tipo": "Skate Shoes",
-        "descripcion": "Un clásico del skateboarding con cuello acolchado y durabilidad para las sesiones en la tabla.",
-        "imagen": "./public/img/zapatos/17.jpg"
+        "titulo": "Adidas ZX Flux",
+        "precio": 1528,
+        "marca": "Adidas",
+        "tipo": "Casual Sneakers",
+        "descripcion": "Estilo minimalista con una parte superior de malla transpirable y detalles de estilo retro.",
+        "imagen": "./public/img/zapatos/24.jpg"
     },
     {
         "id": "25",
-        "titulo": "Vans Sk8-Hi",
-        "precio": 1274,
+        "titulo": "Vans Sk8-Mid",
+        "precio": 1189,
         "marca": "Vans",
         "tipo": "Skate Shoes",
-        "descripcion": "Un clásico del skateboarding con cuello acolchado y durabilidad para las sesiones en la tabla.",
-        "imagen": "./public/img/zapatos/17.jpg"
+        "descripcion": "Versión intermedia del Sk8-Hi con un perfil más bajo y el mismo estilo skateboarding.",
+        "imagen": "./public/img/zapatos/25.jpg"
     }
 ]
