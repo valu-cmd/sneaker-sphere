@@ -17,15 +17,43 @@
                 <li><a class="active" href="/index.html">Incio</a></li>
                 <li><a href="/productos.html">Productos</a></li>
                 <li><a href="/sobreNosotros.html">Nostros</a></li>
-                <li id="lg-bag"><a href="/cart.html"><i class="fa-solid fa-cart-shopping" style="color: #217280; font-size: 18px;"></i></a><span id="cart-count">0</span></li>
+                <li id="lg-bag"><i class='bx bxs-shopping-bag'id="cart-icon" data-quantity="0"></i></li>
                 <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
             </ul>
         </div>
+        <!--Cart-->
+        <div class="cart">
+            <h3 class="cart-title">Mi carrito de compras</h3>
+            <!--Contenido-->
+            <div class="cart-cont">
+                <div class="cart-box">
+                    <img src="/img/zapatos/1.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">Product 1</div>
+                        <div class="cart-price">$1000</div>
+                        <input type="number" name="" id="" value="1" class="cart-quatity">
+                    </div>
+                    <!--Remove-->
+                    <i class='bx bx-trash cart-remove' ></i>
+                </div>
+            </div>
+            <!--Total-->
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <!--Buy button-->
+            <button type="button" class="btn-buy">Paga Ahora</button>
+            <!--Close cart-->
+            <i class='bx bx-x' id="close-cart"></i>
+        </div>
+
         <div id="mobile">
             <a href="/cart.html"><i class="fa-solid fa-cart-shopping" style="color: #217280;"></i></a>
             <i id="bar" class="fa-solid fa-bars" style="color: #e67a6c;"></i>
         </div>
     </section>
+    
     <!--Hero Image-->
     <section id="hero">
           <h1>Desata tu estilo con tenis deportivos excepcionales</h1>
@@ -146,6 +174,7 @@
             <p>© 2024 Sneaker Sphere, Inc. Todos los derechos reservados</p>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
