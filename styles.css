@@ -631,10 +631,14 @@ footer h2{
     }
 
     #mobile i{
-        font-size: 18px;
+        font-size: 25px;
         padding-left: 20px;
     }
     
+    .cart.active {
+        z-index: 99;
+    }
+
     #close{
         display: initial;
         position: absolute;
