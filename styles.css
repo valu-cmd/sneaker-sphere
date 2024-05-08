@@ -378,17 +378,21 @@ p{
     color: #c33c2a;
 }
 
-#product1 .pro .shop{
+#product1 .pro .add-cart{
     width: 40px;
     height: 40px;
     line-height: 40px;
     border-radius: 50px;
     background-color: #083841;
+    color: white;
     font-weight: 500;
-    border: 1px solid #083841;
     position: absolute;
     bottom: 20px;
     right: 15px;    
+}
+
+#product1 .pro .add-cart:hover{
+    background: #1d7a8a;
 }
 
 /*----------------------------------FOOTER---------------------------------*/
