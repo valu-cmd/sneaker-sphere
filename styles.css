@@ -258,7 +258,7 @@ p{
     font-weight: 500;
 }
 
-.cart-quatity{
+.cart-quantity{
     border: 1px solid rgb(177, 177, 177);
     outline-color: #000;
     width: 2.8rem;
@@ -360,17 +360,20 @@ p{
     padding: 10px 0;
 }
 
-#product1 .pro .desc span {
+#product1 .pro .desc .description{
     font-family: Nunito;
     font-size: 14px;
     color: #545454;
 }
 
-#product1 .pro .desc p{
+#product1 .pro .desc .product-title{
     padding-top: 7px;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
 }
 
-#product1 .pro .desc h5{
+#product1 .pro .desc .price{
     padding-top: 10px;
     font-family: Lato;
     font-size: 15px;
