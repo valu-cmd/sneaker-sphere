@@ -6,123 +6,144 @@
     <title>Prductos | Sneaker Sphere</title>
     <link rel="website icon" type="png" href="img/logo/logo teni 2 no bkg.jpg">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <!--Navigation Bar-->
     <section id="header">
-        <a href="index.html"><img src="img/logo/logo teni 2 no bkg.jpg" class="logo" alt=""></a>
+        <a href="/index.html"><img src="img/logo/logo teni 2 no bkg.jpg" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
                 <li><a href="index.html">Incio</a></li>
                 <li><a class="active" href="productos.html">Productos</a></li>
                 <li><a href="sobreNosotros.html">Nostros</a></li>
-                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #217280; font-size: 18px;"></i></a></li>
-                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                <li id="lg-bag"><i class='bx bxs-shopping-bag'id="cart-icon" data-quantity="0"></i></li>
+                <a href="#" id="close"><i class='bx bx-x-circle'></i></a>
             </ul>
         </div>
+
+        <!--Cart-->
+        <div class="cart">
+            <h3 class="cart-title">Mi carrito de compras</h3>
+            <!--Contenido-->
+            <div class="cart-cont"></div>
+            <!--Total-->
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <!--Buy button-->
+            <button type="button" class="btn-buy">Paga Ahora</button>
+            <!--Close cart-->
+            <i class='bx bx-x' id="close-cart"></i>
+        </div>
+
         <div id="mobile">
-            <a href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #217280;"></i></a>
-            <i id="bar" class="fa-solid fa-bars" style="color: #e67a6c;"></i>
+            <i class='bx bxs-shopping-bag' id="cart-icon" data-quantity="0"></i>
+            <i id="bar" class='bx bx-menu' style="color: #e67a6c;"></i>
         </div>
     </section>
+
     <!--Hero Image-->
     <section id="page-header" class="product-header">
         <h1>Tenis para todos</h1>
         <h4>Encuentra tu paso perfecto con nuestra selección: ¡Tenis para todos los estilos y ocasiones!</h4>
     </section>
+
     <br/>
     <!--Product Section-->
     <section id="product1" class="section-p1">
+        <h1>Lo más popular</h1> <br/>
         <div class="pro-container">
             <div class="pro" onclick="window.location.href='sproducto.html'">
-                <img src="/img/zapatos/1.jpg" alt="Converse">
+                <img src="img/zapatos/1.jpg" alt="Converse" class="product-img">
                 <div class="desc">
-                    <span>Casual Sneakers</span>
-                    <p class="subtitle">Converse Chuck Taylor All Star Classic</p>
-                    <h5>$1,019</h5>
+                    <span class="description">Casual Sneakers</span>
+                    <p class="product-title">Converse Chuck Taylor All Star Classic</p>
+                    <h5 class="price">$ 1019</h5>
                 </div>
-                <a href="#" class="shop"><i class="fa-solid fa-bag-shopping" style="color: #ffffff; font-size: 18px;"></i></a>
+                <i class='bx bxs-shopping-bag add-cart'></i>
             </div>
 
             <div class="pro">
-                <img src="/img/zapatos/19.jpg" alt="Nike">
+                <img src="img/zapatos/19.jpg" alt="Nike" class="product-img">
                 <div class="desc">
-                    <span>Basketball Shoes</span>
-                    <p class="subtitle">Nike Zoom Freak 3</p>
-                    <h5> $2,377 </h5>
+                    <span class="description">Basketball Shoes</span>
+                    <p class="product-title">Nike Zoom Freak 3</p>
+                    <h5 class="price">$ 2377 </h5>
                 </div>
-                <a href="#" class="shop"><i class="fa-solid fa-bag-shopping" style="color: #ffffff; font-size: 18px;"></i></a>
+                <i class='bx bxs-shopping-bag add-cart'></i>
             </div>
 
             <div class="pro">
-                <img src="/img/zapatos/5.jpg" alt="Converse">
+                <img src="/img/zapatos/5.jpg" alt="Converse" class="product-img">
                 <div class="desc">
-                    <span>Skate Shoes</span>
-                    <p class="subtitle">Vans Old Skool Checkerboard</p>
-                    <h5>$1,189</h5>
+                    <span class="description">Skate Shoes</span>
+                    <p class="product-title">Vans Old Skool Checkerboard</p>
+                    <h5 class="price">$ 1189</h5>
                 </div>
-                <a href="#" class="shop"><i class="fa-solid fa-bag-shopping" style="color: #ffffff; font-size: 18px;"></i></a>
+                <i class='bx bxs-shopping-bag add-cart'></i>
             </div>
 
             <div class="pro">
-                <img src="/img/zapatos/15.jpg" alt="Nike">
+                <img src="/img/zapatos/15.jpg" alt="Nike" class="product-img">
                 <div class="desc">
-                    <span>Running Shoes</span>
-                    <p class="subtitle">Nike React Infinity Run Flyknit</p>
-                    <h5>$2,547</h5>
+                    <span class="description">Running Shoes</span>
+                    <p class="product-title">Nike React Infinity Run Flyknit</p>
+                    <h5 class="price">$ 2547</h5>
                 </div>
-                <a href="#" class="shop"><i class="fa-solid fa-bag-shopping" style="color: #ffffff; font-size: 18px;"></i></a>
+                <i class='bx bxs-shopping-bag add-cart'></i>
             </div>
 
             <div class="pro">
-                <img src="/img/zapatos/22.jpg" alt="Converse">
+                <img src="/img/zapatos/22.jpg" alt="Converse" class="product-img">
                 <div class="desc">
-                    <span>Basketball Shoes</span>
-                    <p class="subtitle">Nike KD Trey 5 VIII</p>
-                    <h5>$1,868</h5>
+                    <span class="description">Basketball Shoes</span>
+                    <p class="product-title">Nike KD Trey 5 VIII</p>
+                    <h5 class="price">$ 1868</h5>
                 </div>
-                <a href="#" class="shop"><i class="fa-solid fa-bag-shopping" style="color: #ffffff; font-size: 18px;"></i></a>
+                <i class='bx bxs-shopping-bag add-cart'></i>
             </div>
 
             <div class="pro">
-                <img src="/img/zapatos/12.jpg" alt="Converse">
+                <img src="/img/zapatos/12.jpg" alt="Converse" class="product-img">
                 <div class="desc">
-                    <span>Casual Sneakers</span>
-                    <p class="subtitle">Adidas Superstar</p>
-                    <h5>$1,358</h5>
+                    <span class="description">Casual Sneakers</span>
+                    <p class="product-title">Adidas Superstar</p>
+                    <h5 class="price">$ 1358</h5>
                 </div>
-                <a href="#" class="shop"><i class="fa-solid fa-bag-shopping" style="color: #ffffff; font-size: 18px;"></i></a>
+                <i class='bx bxs-shopping-bag add-cart'></i>
             </div>
 
             <div class="pro">
-                <img src="/img/zapatos/10.jpg" alt="Converse">
+                <img src="/img/zapatos/10.jpg" alt="Converse" class="product-img">
                 <div class="desc">
-                    <span>Casual Sneakers</span>
-                    <p class="subtitle">Converse Jack Purcell</p>
-                    <h5>$1,104</h5>
+                    <span class="description">Casual Sneakers</span>
+                    <p class="product-title">Converse Jack Purcell</p>
+                    <h5 class="price">$ 1104</h5>
                 </div>
-                <a href="#" class="shop"><i class="fa-solid fa-bag-shopping" style="color: #ffffff; font-size: 18px;"></i></a>
+                <i class='bx bxs-shopping-bag add-cart'></i>
             </div>
 
             <div class="pro">
-                <img src="/img/zapatos/25.jpg" alt="Converse">
+                <img src="/img/zapatos/25.jpg" alt="Converse" class="product-img">
                 <div class="desc">
-                    <span>Skate Shoes</span>
-                    <p class="subtitle">Vans Sk8-Mid</p>
-                    <h5>$1,189</h5>
+                    <span class="description">Skate Shoes</span>
+                    <p class="product-title">Vans Sk8-Mid</p>
+                    <h5 class="price">$ 1189</h5>
                 </div>
-                <a href="#" class="shop"><i class="fa-solid fa-bag-shopping" style="color: #ffffff; font-size: 18px;"></i></a>
+                <i class='bx bxs-shopping-bag add-cart'></i>
             </div>
         </div>
     </section>
+
     <!--Pagination-->
     <section id="pagination" class="section-p1">
         <a href="#">1</a>
         <a href="#">2</a>
-        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
     </section>
 <br><br>
+
     <!--Footer-->
     <footer class="section-p1">
         <div class="col">
