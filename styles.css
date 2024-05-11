@@ -58,12 +58,11 @@ p{
     padding: 40px 80px;
 }
 
-/*.button_text{
+.button_text{
     font-family: Candal;
     font-size: 16px;
-    font-weight: regular;
 }
-*/
+
 .navbar_text{
     font-family: Raleway;
     font-size: 16px;
@@ -484,6 +483,17 @@ footer h2{
     font-weight: 600;
 }
 
+#pagination .enlace-active{
+    text-decoration: none;
+    background-color: #eb9387da;
+    border: 1px solid #df5a48;
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-family: Manrope;
+    color: #333333;
+    font-weight: 600;
+}
+
 #pagination a i {
     font-size: 16px;
     font-weight: 600;
@@ -532,13 +542,12 @@ footer h2{
     outline: none;
 }
 
-#prodetails .single-pro-details a{
+#prodetails .single-pro-details .add-cart{
     background-color: #083841;
     color: white;
-    padding: 13px; /* Tamaño del botón */
-    font-family: Candal;
-    font-size: 15px;
-    font-weight: regular;
+    padding: 15px; /* Tamaño del botón */
+    font-family: Candal !important;
+    font-size: 16px;
     text-decoration: none;
     cursor: pointer;
 }
