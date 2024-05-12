@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vans Era | Sneaker Sphere</title>
+    <link rel="website icon" type="png" href="/img/logo/logo teni 2 no bkg.jpg">
+    <link rel="stylesheet" href="/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <section id="header">
+        <a href="/index.html"><img src="/img/logo/logo teni 2 no bkg.jpg" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="/index.html">Incio</a></li>
+                <li><a class="active" href="/productos.html">Productos</a></li>
+                <li><a href="/sobreNosotros.html">Nostros</a></li>
+                <li id="lg-bag"><i class='bx bxs-shopping-bag'id="cart-icon" data-quantity="0"></i></li>
+                <a href="#" id="close"><i class='bx bx-x-circle'></i></a>
+            </ul>
+        </div>
+
+        <!--Cart-->
+        <div class="cart">
+            <h3 class="cart-title">Mi carrito de compras</h3>
+            <!--Contenido-->
+            <div class="cart-cont"></div>
+            <!--Total-->
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <!--Buy button-->
+            <button type="button" class="btn-buy">Paga Ahora</button>
+            <!--Close cart-->
+            <i class='bx bx-x' id="close-cart"></i>
+        </div>
+
+        <div id="mobile">
+            <i class='bx bxs-shopping-bag' id="cart-icon" data-quantity="0"></i>
+            <i id="bar" class='bx bx-menu' style="color: #e67a6c;"></i>
+        </div>
+    </section>
+
+    <!--Product Section-->
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-img">
+            <img src="/img/zapatos/21.jpg" width= 100% class="product-img">
+        </div>
+        <div class="single-pro-details">
+            <h2 class="product-title">Vans Era</h2>
+            <h4 class="price">$ 1019</h4>
+            <br>
+            <p>Descripción</p><br/>
+            <span>Diseño clásico con detalles de doble costura y resistencia al desgaste. Además, cuentan con una suela vulcanizada, característica de la marca Vans, que proporciona una mayor adherencia y flexibilidad, lo que las hace ideales para actividades cotidianas y deportivas.</span>
+            <br><br>
+            <select>
+                <option>Selecione talla...</option>
+                <option value="">4 MX</option>
+                <option value="">4.5 MX</option>
+                <option value="">4.5 MX</option>
+                <option value="">5 MX</option>
+                <option value="">5.5 MX</option>
+                <option value="">6 MX</option>
+                <option value="">6.5 MX</option>
+                <option value="">7 MX</option>
+                <option value="">7.5 MX</option>
+                <option value="">8 MX</option>
+                <option value="">8.5 MX</option>
+                <option value="">9 MX</option>
+                <option value="">9.5 MX</option>
+                <option value="">10 MX</option>
+                <option value="">10.5 MX</option>
+                <option value="">11 MX</option>
+            </select>
+            <select>
+                <option>Selecione color...</option>
+                <option value="">Negro</option>
+                <option value="">Blanco</option>
+                <option value="">Gris</option>
+                <option value="">Azul marino</option>
+                <option value="">Rojo</option>
+                <option value="">Verde</option>
+            </select>
+            <br>
+            <input type="number" value="1">
+            <i class='bx bxs-shopping-bag add-cart' onclick="addProductToCart('Vans Era', 1019, './img/zapatos/21.jpg')">Agregar al Carrito</i>
+        </div>
+    </section>
+    <br>
+    <!--Footer-->
+    <footer class="section-p1">
+        <div class="col">
+                <h2>¡Pisa fuerte con estilo en cada paso!</h2>
+        </div>
+        <br>
+        <div class="col">
+            <p class="subtitle">Acerca de</p>
+            <a href="sobreNosotros.html">Sobre Nosotros</a><br>
+            <a href="#">¡Contactanos!</a><br>
+            <a href="#">Asistencia al usuario</a><br>
+            <a href="#">Preguntas Frecuentes</a>
+        </div>
+        <div class="col">
+            <p class="subtitle">Términos Legales</p>
+            <a href="#">Términos y Condiciones</a><br>
+            <a href="politicaPrivacidad.html">Política de Privacidad</a><br>
+            <a href="politicaCookies.html">Política de Cookies</a><br>
+        </div>
+        <div class="col install">
+            <p class="subtitle">Formas de pago</p>
+            <img src="/img/mercado-pago-logo.png" class="footSize">
+        </div>
+        <br><br><br>
+        <div class="copyright">
+            <p>© 2024 Sneaker Sphere, Inc. Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="/js/main.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
