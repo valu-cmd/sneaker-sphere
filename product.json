@@ -190,11 +190,11 @@
     },
     {
         "id": "22",
-        "titulo": "Vans Sk8-Hi",
+        "titulo": "Nike KD Trey 5 VIII",
         "precio": 1274,
-        "marca": "Vans",
-        "tipo": "Skate Shoes",
-        "descripcion": "Un clásico del skateboarding con cuello acolchado y durabilidad para las sesiones en la tabla.",
+        "marca": "Nike",
+        "tipo": "Basketball Shoes",
+        "descripcion": "Diseñados para el jugador Kevin Durant, con tracción multidireccional y soporte ligero.",
         "imagen": "./public/img/zapatos/22.jpg"
     },
     {
@@ -214,14 +214,5 @@
         "tipo": "Casual Sneakers",
         "descripcion": "Estilo minimalista con una parte superior de malla transpirable y detalles de estilo retro.",
         "imagen": "./public/img/zapatos/24.jpg"
-    },
-    {
-        "id": "25",
-        "titulo": "Vans Sk8-Mid",
-        "precio": 1189,
-        "marca": "Vans",
-        "tipo": "Skate Shoes",
-        "descripcion": "Versión intermedia del Sk8-Hi con un perfil más bajo y el mismo estilo skateboarding.",
-        "imagen": "./public/img/zapatos/25.jpg"
     }
 ]
