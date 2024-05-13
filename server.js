@@ -7,16 +7,29 @@ dotenv.config();
 
 //Start Server
 const app = express();
+
 app.use(express.static('public'));
 app.use(express.json());
 
 //Home Route
 app.get('/', (req, res) => {
     res.sendFile('index.html', {root: 'public'});
-})
+});
+
+//Success
+app.get('/successfull', (req, res) => {
+    res.sendFile('successfull.html', {root: 'public'});
+});
+
+//Cancel
+app.get('/cancel', (req, res) => {
+    res.sendFile('cancel.html', {root: 'public'});
+});
 
 //Stripe
 let stripeGateway = (process.env.stripe_api);
+let DOMAIN = process.env.DOMAIN;
+
 app.post('/stripe-checkout', async (req, res) => {
     const lineItems = req.body.items.map((item) => {
         const unitAmount = parseInt(item.price.replace(/[^0-9.-]+/g, '') * 100);
@@ -37,10 +50,10 @@ app.post('/stripe-checkout', async (req, res) => {
     console.log('lineItems:', lineItems);
     //Create checkout session
     const session = await stripeGateway.checkout.sessions.create({
-        payment_method_type: ['card'],
+        payment_method_types: ['card'],
         mode: 'payment',
-        success_url: '${DOMAIN}/success',
-        cancel_url: '${DOMAIN}/cancel',
+        success_url: `${DOMAIN}/success`,
+        cancel_url: `${DOMAIN}/cancel`,
         line_items: lineItems,
         //Asking address in checkout page
         billing_address_collection: 'required'
