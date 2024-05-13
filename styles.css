@@ -606,6 +606,56 @@ footer h2{
     cursor: pointer;
 }
 
+/*----------------------------------contactanos.html---------------------------------*/
+#form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px; 
+    border: 1px solid #e1e1e1;
+}
+
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-details form span{
+    font-family: Nunito;
+    font-size: 14px;
+    color: #545454;
+}
+
+#form-details form h2{
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: regular;
+}
+
+#form-details form button{
+    background-color: #e67a6c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-family: Candal;
+    font-size: 16px;
+    font-weight: regular;
+    cursor: pointer;
+}
+
 /*----------------------------------RESPONSIVE---------------------------------*/
 /*Start Media Query*/
 @media (max-width:799px) {
