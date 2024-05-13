@@ -657,6 +657,40 @@ footer h2{
 }
 
 /*----------------------------------RESPONSIVE---------------------------------*/
+.sc-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sc-container img{
+    width: 200px;
+    margin: 2rem 0;
+}
+
+.sc-container h1{
+    margin-bottom: 10px;
+}
+
+.sc-container p{
+    max-width: 600px;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.sc-btn{
+    padding: 12px 20px;
+    border-radius: 2rem;
+    background-color: #1d7a8a;
+    color: white;
+    font-family: Candal;
+    font-size: 16px;
+}
+
+/*----------------------------------RESPONSIVE---------------------------------*/
 /*Start Media Query*/
 @media (max-width:799px) {
     .section-p1{
