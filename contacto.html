@@ -6,50 +6,57 @@
     <title>Contacto | Sneaker Sphere</title>
     <link rel="website icon" type="png" href="img/logo/logo teni 2 no bkg.jpg">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <!--Navigation Bar-->
     <section id="header">
-        <a href="index.html"><img src="img/logo/logo teni 2 no bkg.jpg" class="logo" alt=""></a>
+        <a href="/index.html"><img src="img/logo/logo teni 2 no bkg.jpg" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
                 <li><a href="index.html">Incio</a></li>
                 <li><a href="productos.html">Productos</a></li>
                 <li><a class="active" href="sobreNosotros.html">Nostros</a></li>
-                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #217280; font-size: 18px;"></i></a></li>
-                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                <li id="lg-bag"><i class='bx bxs-shopping-bag'id="cart-icon" data-quantity="0"></i></li>
+                <a href="#" id="close"><i class='bx bx-x-circle'></i></a>
             </ul>
         </div>
-        <div id="mobile">
-            <a href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #217280;"></i></a>
-            <i id="bar" class="fa-solid fa-bars" style="color: #e67a6c;"></i>
-        </div>
-    </section>
-    <!--Hero Image-->
-    <section id="page-header" class="about-header">
-        <h1>Sobre Nosotros</h1>
-        <h4>Estilos y tallas para todos, celebra la diversidad.</h4>
-    </section>
-    <br/>
-    <!--Sobre Nosotros-->
-    <section id="about-head" class="section-p1">
-        <img src="img/teamwork.jpg">
-        <div>
-            <h1>¿Quienes somos?</h1>
-            <br>
-            <p>En nuestra tienda, abrazamos la diversidad y la autenticidad de cada individuo.</p>
-            <br>
-            <p>Creemos que el estilo no tiene límites, por eso ofrecemos una amplia selección de tenis que se adaptan a todas las formas y tallas. Desde los clásicos atemporales hasta los diseños más vanguardistas, nuestro objetivo es que encuentres el par perfecto que refleje tu personalidad única.</p>
-            <br>
-            <p>Nos comprometemos a ser un espacio inclusivo donde cada paso que des sea una expresión genuina de quién eres. Bienvenido a nuestra comunidad de estilo sin fronteras.</p>
-            <br>
-            <marquee bgcolor="#1e8a9d" loop="-1" scrollamout="5" width="100%">Camina con confianza y estilo en nuestra tienda, donde cada par de tenis es una declaración de inclusión y autenticidad.</marquee>
-            <br><br><br><br>
-            <a href="contacto.html" class="btnHero">¡Contactanos!</a>
-        </div>
-    </section>
 
+        <!--Cart-->
+        <div class="cart">
+            <h3 class="cart-title">Mi carrito de compras</h3>
+            <!--Contenido-->
+            <div class="cart-cont"></div>
+            <!--Total-->
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <!--Buy button-->
+            <button type="button" class="btn-buy">Paga Ahora</button>
+            <!--Close cart-->
+            <i class='bx bx-x' id="close-cart"></i>
+        </div>
+
+        <div id="mobile">
+            <i class='bx bxs-shopping-bag' id="cart-icon" data-quantity="0"></i>
+            <i id="bar" class='bx bx-menu' style="color: #e67a6c;"></i>
+        </div>
+    </section>
+    
+    <br/>
+    <!--Formulario-->
+    <section id="form-details">
+        <form action="">
+            <span>Dejanos un mensaje</span>
+            <h2>¡Queremos escucharte!</h2>
+            <input type="text" placeholder="Tu Nombre">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Asunto">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+            <button class="normal">Enviar</button>
+        </form>
+    </section>
     <br><br>
     <!--Footer-->
     <footer class="section-p1">
